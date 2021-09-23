@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "description_1": {
+      "type": "text"
+    },
+    "description_2": {
+      "type": "text"
+    },
+    "info": {
+      "type": "text"
+    },
+    "good_to_know": {
+      "type": "text"
+    }
+  }
+}

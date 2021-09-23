@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_use_professionals",
+  "info": {
+    "name": "use_professionals",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "type": "string"
+    },
+    "description_2": {
+      "type": "text"
+    }
+  }
+}

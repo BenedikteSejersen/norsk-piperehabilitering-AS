@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_h_cards",
+  "info": {
+    "name": "cards",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

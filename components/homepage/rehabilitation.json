@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_homepage_rehabilitations",
+  "info": {
+    "name": "rehabilitation",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "h.cards"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

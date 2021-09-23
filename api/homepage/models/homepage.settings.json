@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading_header": {
+      "type": "string"
+    },
+    "description_header": {
+      "type": "text"
+    },
+    "rehabilitation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.rehabilitation"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.contact"
+    },
+    "use_professionals": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.use-professionals"
+    },
+    "img_1": {
+      "type": "string"
+    },
+    "img_2": {
+      "type": "string"
+    }
+  }
+}

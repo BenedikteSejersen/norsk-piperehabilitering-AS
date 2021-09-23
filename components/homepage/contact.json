@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "contact_methods": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.contact-methods"
+    }
+  }
+}

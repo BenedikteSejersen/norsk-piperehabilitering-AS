@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_contact_methods",
+  "info": {
+    "name": "contact_methods",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "contact_info": {
+      "type": "string"
+    },
+    "contact_icon": {
+      "type": "string"
+    }
+  }
+}
